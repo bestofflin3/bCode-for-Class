@@ -1,17 +1,10 @@
 /**/
 
 #ctop {
-  background-color: #FC8181;
+  background-color: #65ABFE;
   height: 60px;
   color: white;
   text-align: center;
-}
-
-#ccenter {
-  background-color: black;
-  height: 60px;
-  color: white;
-  margin-top: -40px;
 }
 
 #carac {
@@ -21,7 +14,7 @@
 }
 
 #textApp {
-  margin-top: -30px; 
+  margin-top: 40px; 
   text-align: center; 
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 40px;

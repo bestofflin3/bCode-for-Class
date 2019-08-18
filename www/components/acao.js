@@ -9,15 +9,14 @@ $(document).on("click", "#codigo",function(){
       function (result) {
             if(result.text == 280720550){
               $(location).attr("href","produto1.html");
-            }
-            if(result.text == 989895555){
+            } else if(result.text == 989895555){
               $(location).attr("href","produto2.html");
-            }
-            if(result.text == 85236987){
+            }else if(result.text == 85236987){
               $(location).attr("href","produto3.html");
-            }
-            if(result.text == 85369877444){
+            }else if(result.text == 85369877444){
               $(location).attr("href","produto4.html");
+            } else {
+              alert("Código de barras inválido!");
             }
       },
       function (error) {
